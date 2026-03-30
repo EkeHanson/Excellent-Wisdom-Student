@@ -9,6 +9,8 @@ import {
   pinnedRosterNames,
   classmateProfiles,
   lateMembers,
+  upcomingEvents,
+  meetingMinutes,
 } from './data'
 import ContributionSection from './components/ContributionSection'
 import HomeSection from './components/HomeSection'
@@ -16,6 +18,7 @@ import PageNav from './components/PageNav'
 import ProfileSection from './components/ProfileSection'
 import RosterSection from './components/RosterSection'
 import DocumentsSection from './components/DocumentsSection'
+import EventsSection from './components/EventsSection'
 
 const logoUrl = new URL('../logo.jpeg', import.meta.url).href
 const certificatePdf = new URL('../CERTIFICATE - EXCELLENT WISDOM STUDENTS NGO 2013 ALUMNI ASSOCIATION (1).pdf', import.meta.url).href
@@ -148,6 +151,13 @@ function App() {
           certificatePdf={certificatePdf}
           statusReportPdf={statusReportPdf}
           meetingMinutePdf={meetingMinutePdf}
+        />
+      )}
+
+      {currentView === 'events' && (
+        <EventsSection
+          events={upcomingEvents}
+          meetingMinutes={meetingMinutes}
         />
       )}
     </div>
