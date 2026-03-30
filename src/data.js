@@ -96,6 +96,7 @@ export const classmateProfiles = {
   'Harry Awajiobotumu': {
     occupation: 'Community organizer and alumni coordinator',
     facts: [
+      'Current Chairman of the class union.',
       'Leader of the fundraising effort for CAC registration and account opening.',
       'Trusted contact for all alumni contributions.',
       'Active communicator and group administrator.',
@@ -123,7 +124,7 @@ export const classmateProfiles = {
     ],
   },
   'Afisia Igoni': {
-    occupation: 'Active alumni donor',
+    occupation: 'Civil Engineer',
     facts: [
       'Participated in major fundraising drives.',
       'Helps maintain our giving culture.',

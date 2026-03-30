@@ -1,7 +1,24 @@
 import React from 'react'
 
+const profileImages = import.meta.glob('../assets/profile-pictures/*.{png,jpg,jpeg,webp}', {
+  eager: true,
+  as: 'url',
+})
+
+const profileImageMap = Object.fromEntries(
+  Object.entries(profileImages).map(([path, url]) => {
+    const fileName = path.split('/').pop()
+    const name = fileName?.replace(/\.(png|jpe?g|webp)$/i, '')
+    return [name, url]
+  }),
+)
+
 function placeholderImage(name) {
   return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=4f46e5&color=ffffff&size=256`
+}
+
+function getProfileImage(name) {
+  return profileImageMap[name] ?? placeholderImage(name)
 }
 
 function ProfileSection({ selectedClassmate, profile, paymentInfo, onBack, isLate }) {
@@ -27,7 +44,7 @@ function ProfileSection({ selectedClassmate, profile, paymentInfo, onBack, isLat
       <div className="profile-card">
         <img
           className="profile-photo"
-          src={placeholderImage(selectedClassmate)}
+          src={getProfileImage(selectedClassmate)}
           alt={`Profile of ${selectedClassmate}`}
         />
         <div className="profile-content">

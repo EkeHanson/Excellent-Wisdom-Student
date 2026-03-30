@@ -865,18 +865,19 @@ button {
 
 .profile-card {
   display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: 24px;
-  padding: 26px;
+  grid-template-columns: minmax(120px, 180px) 1fr;
+  gap: 18px;
+  align-items: start;
+  padding: 22px;
   border-radius: 28px;
   background: linear-gradient(135deg, #ffffff, #eff6ff);
   border: 1px solid rgba(59, 130, 246, 0.18);
 }
 
 .profile-photo {
-  width: 100%;
-  height: auto;
-  border-radius: 28px;
+  width: 140px;
+  height: 140px;
+  border-radius: 24px;
   object-fit: cover;
   border: 1px solid rgba(79, 70, 229, 0.14);
 }
