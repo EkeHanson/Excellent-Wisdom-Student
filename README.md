@@ -42,7 +42,7 @@ A modern, responsive web application for the Excellent Wisdom Students NGO 2013 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/EkeHanson/Excellent-Wisdom-Student.git
 
 # Navigate to project directory
 cd excellent-wisdom-students
