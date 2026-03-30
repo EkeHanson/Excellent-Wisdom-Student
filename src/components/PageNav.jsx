@@ -1,13 +1,13 @@
 import React from 'react'
-import { FiHome, FiDollarSign, FiUsers, FiCalendar, FiFileText } from 'react-icons/fi'
+import { HiHome, HiCurrencyDollar, HiUserGroup, HiCalendar, HiDocumentText } from 'react-icons/hi'
 
 function PageNav({ currentView, onNavigate }) {
   const pages = [
-    { id: 'home', label: 'Home', icon: <FiHome /> },
-    { id: 'contributions', label: 'Contributions', icon: <FiDollarSign /> },
-    { id: 'roster', label: 'Members', icon: <FiUsers /> },
-    { id: 'events', label: 'Events', icon: <FiCalendar /> },
-    { id: 'documents', label: 'Documents', icon: <FiFileText /> },
+    { id: 'home', label: 'Home', icon: <HiHome /> },
+    { id: 'contributions', label: 'Contributions', icon: <HiCurrencyDollar /> },
+    { id: 'roster', label: 'Members', icon: <HiUserGroup /> },
+    { id: 'events', label: 'Events', icon: <HiCalendar /> },
+    { id: 'documents', label: 'Documents', icon: <HiDocumentText /> },
   ]
 
   return (

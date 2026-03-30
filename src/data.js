@@ -138,17 +138,17 @@ export const lateMembers = [
 export const upcomingEvents = [
   {
     id: 1,
-    title: 'Annual General Meeting 2024',
-    date: '2024-12-15',
-    time: '10:00 AM',
-    location: 'Community Hall, Ayama Agana Town',
+    title: 'Mid Year General Meeting 2026',
+    date: '2026-07-15',
+    time: '04:00 PM',
+    location: 'Awaiting who will host us at is residence or place of choice',
     description: 'Join us for our annual general meeting where we will review the year\'s activities, elect new officers, and plan for the upcoming year. All members are encouraged to attend.',
     isUpcoming: true,
   },
   {
     id: 2,
     title: 'End of Year Get-Together',
-    date: '2024-12-28',
+    date: '2027-01-03',
     time: '2:00 PM',
     location: 'Harry\'s Residence',
     description: 'A casual gathering to celebrate the end of the year and strengthen our bonds as classmates. Light refreshments will be provided.',

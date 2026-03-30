@@ -51,7 +51,7 @@ function App() {
                 !/^Names of our Classmates\./i.test(line),
             ),
         ),
-      ),
+      ).sort((a, b) => a.localeCompare(b)),
     [],
   )
 
@@ -100,7 +100,7 @@ function App() {
           <h1>Excellent Wisdom Students</h1>
           <p>Secondary school classmates united as an alumni association.</p>
           <p className="hero-note">
-            Use the tabs below to explore contributors, roster, and documents.
+            Use the tabs below to explore contributors, members list, and documents.
           </p>
         </div>
       </header>
