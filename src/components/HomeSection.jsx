@@ -6,8 +6,8 @@ function HomeSection() {
       <section className="section intro">
         <h2>About Our Group</h2>
         <p>
-          Excellent Wisdom Students is a community of former classmates from the 2013 alumni association.
-          We connect, share achievements, and preserve our school memories.
+          Excellent Wisdom Students (EWS) is the alumni community for the 2013 class of Government Secondary School Ngo.
+          Our slogan is <strong>WISDOM IS POWER</strong>, and we exist to remain united, share ideas, solve problems, and help each member grow.
         </p>
       </section>
 

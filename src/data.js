@@ -93,6 +93,314 @@ export const pinnedRosterNames = [
 ]
 
 export const classmateProfiles = {
+  'Abraham E. Hanson': {
+    occupation: 'Software Enginner and CEO appBrew Tech Hub',
+    facts: [
+      'Alumni member and Senior Prefect (SP)',
+      'Active member of the alumni association.',
+    ],
+    phone: '08146955393',
+    email: 'ekenehanson@gmail.com',
+  },
+  'Adaibo Recheal': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Afini Livingston': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Afisia Igoni Ebirien': {
+    occupation: 'Civil Engineer',
+    facts: [
+      'Participated in major fundraising drives.',
+      'Helps maintain our giving culture.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Afisia Lucky Ebirien': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Akum Kelvin Law': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Amabi A. Ataijong': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Amabi Godgift': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Arong Naomi': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ataisi Derefah': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Atamgbo Dike': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ayauwu Loveday': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Charles Mbet': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'David Samuel': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Dimkpa Dike': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Dimkpa Selinah': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Dorcas Ataisi': {
+    occupation: 'Supporter of alumni welfare',
+    facts: [
+      'Has contributed to burial support and member assistance.',
+      'Committed to keeping the alumni network strong.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ebirien-uket Awajimijaan': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ebirien-uket Rose': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Emily Simeon': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ene Ugbanawaji': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Eneigakikpon': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Enos Zaccheaus J.': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ephraim Egbe': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Esau Agala': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Etonawaji': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Evelyn Ignatius': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ezen Idabite': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Famous U.': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Festa Awajionyi': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Finibo Ataisi': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Friday John': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Garrick Evelyn Itesi': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Garrick Mary Itesi': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'George Awajimam': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Glory Randolf': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Godgift Sampson': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Gogo Bara': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
   'Harry Awajiobotumu': {
     occupation: 'Community organizer and alumni coordinator',
     facts: [
@@ -101,13 +409,96 @@ export const classmateProfiles = {
       'Trusted contact for all alumni contributions.',
       'Active communicator and group administrator.',
     ],
+    phone: '',
+    email: '',
   },
-  'Micah Fynecountry': {
-    occupation: 'Project supporter and event donor',
+  'Hebron Steven': {
+    occupation: 'Alumni member',
     facts: [
-      'Contributed to multiple group support initiatives.',
-      'Keeps the class engaged with timely updates.',
+      'Active member of the alumni association.',
     ],
+    phone: '',
+    email: '',
+  },
+  'Igor Awaji-ikekeiyem': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ikwaanawaji Ebirien': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Inyene Martha Eriente': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Inyong Atanfut David': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Irasmus Leah': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Iribe Mkparo': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Iwari Okot Okot': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Iyaah Sarah': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Iyo Amos Amos': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Jackson Trust': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
   },
   'Jessica Jack': {
     occupation: 'Community supporter',
@@ -115,20 +506,433 @@ export const classmateProfiles = {
       'Donated to both registration and support drives.',
       'Active participant in class announcements.',
     ],
+    phone: '',
+    email: '',
   },
-  'Dorcas Ataisi': {
-    occupation: 'Supporter of alumni welfare',
+  'Keziah Martins': {
+    occupation: 'Alumni member',
     facts: [
-      'Has contributed to burial support and member assistance.',
-      'Committed to keeping the alumni network strong.',
+      'Active member of the alumni association.',
     ],
+    phone: '',
+    email: '',
   },
-  'Afisia Igoni': {
-    occupation: 'Civil Engineer',
+  'Luke Oriadek A.': {
+    occupation: 'Alumni member',
     facts: [
-      'Participated in major fundraising drives.',
-      'Helps maintain our giving culture.',
+      'Active member of the alumni association.',
     ],
+    phone: '',
+    email: '',
+  },
+  'Mark Patience': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Martins Keziah': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Maxwell Gilbert': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Mbosowo Wharton': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Michael Utonejit O': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Micah Micah Fynecountry': {
+    occupation: 'Project supporter and event donor',
+    facts: [
+      'Contributed to multiple group support initiatives.',
+      'Keeps the class engaged with timely updates.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Mkparo Iribe': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Monday Ngofah': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Mr Wari Eugene': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Mrs Frank Hannah': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Mrs Naaman Monica': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Naaman Akpata': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Nicholas Glory': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Nicholas Osor': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ngofah Emily': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Nte Awajioreutoon': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Nte Margret': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Obediah Emily': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Odoh Ebirienmitop': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ofumbo Waribo': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ogwuoma Inwon': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Oke Cyprian': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Opada Godson Garrick': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Opada Mercy Garrick': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Opoada Evelyn': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Oron Isaac': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Oron Miracle': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Oron Moses': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Otuji Oboada J': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Peace Inwon': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Philip Philip': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Princess M.': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Roata': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Romgbokaanbe Awor': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Sampson Edidiong': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Savior Jesus': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Sokari Shedrack Gogo': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Steven Egbe': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Sunday Okwusi': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Sunny': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Trust Martins O.': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ubokikwan Awajikachilom': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Ubulom Noah': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Umeh Nkikpoawaji': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Uriah Lily': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Uriah Miracle': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Victor Kpanmgbore': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Walter Ogwuichen': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Waribo Ata': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Waribo Deborah': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
+  },
+  'Wilson Ataeje': {
+    occupation: 'Alumni member',
+    facts: [
+      'Active member of the alumni association.',
+    ],
+    phone: '',
+    email: '',
   },
 }
 

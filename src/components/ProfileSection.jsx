@@ -38,7 +38,7 @@ function ProfileSection({ selectedClassmate, profile, paymentInfo, onBack, isLat
           {selectedClassmate}
           {isLate && <span className="late-badge">Late</span>}
         </h2>
-        <p>Profile page for the selected classmate.</p>
+        <p>Profile page for the {selectedClassmate}.</p>
       </div>
 
       <div className="profile-card">
@@ -62,13 +62,23 @@ function ProfileSection({ selectedClassmate, profile, paymentInfo, onBack, isLat
           </div>
           <div className="profile-actions">
             <div>
-              <span>Contact</span>
-              <strong>{paymentInfo.name}</strong>
+              {/* <span>Contact</span>
+              <strong>{paymentInfo.name}</strong> */}
+              {profile?.phone && (
+                <div className="contact-detail">
+                  <span>Phone:</span> {profile.phone}
+                </div>
+              )}
+              {profile?.email && (
+                <div className="contact-detail">
+                  <span>Email:</span> {profile.email}
+                </div>
+              )}
             </div>
-            <div>
+            {/* <div>
               <span>Support ledger</span>
               <strong>{paymentInfo.account}</strong>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
