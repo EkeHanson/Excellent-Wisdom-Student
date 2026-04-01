@@ -1,0 +1,367 @@
+/* ProfileSection.css - Fully Responsive Styles */
+
+/* Container Styles */
+.profile-section-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 1rem;
+}
+
+.profile-section-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+/* Header Styles */
+.profile-header {
+  padding: 1.5rem;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  color: #4f46e5;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: #f3f4f6;
+  transform: translateX(-2px);
+}
+
+.back-arrow {
+  font-size: 1.125rem;
+  transition: transform 0.3s ease;
+}
+
+.back-button:hover .back-arrow {
+  transform: translateX(-2px);
+}
+
+.back-text {
+  display: inline-block;
+}
+
+.profile-title-section {
+  margin-top: 0.5rem;
+}
+
+.name-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.late-badge {
+  display: inline-block;
+  background: #f59e0b;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.profile-description {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Profile Card Styles */
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+/* Image Section */
+.profile-image-wrapper {
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+}
+
+/* Content Section */
+.profile-content-wrapper {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.profile-info {
+  max-width: 100%;
+}
+
+.profile-name-large {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.2;
+}
+
+.profile-role {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Facts Section */
+.profile-facts {
+  margin-bottom: 1.5rem;
+}
+
+.facts-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 0.75rem 0;
+}
+
+.facts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.fact-bullet {
+  color: #4f46e5;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.fact-text {
+  flex: 1;
+}
+
+/* Contact Information */
+.contact-info {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.contact-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 0.75rem 0;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #374151;
+  min-width: 45px;
+}
+
+.contact-value {
+  color: #4b5563;
+  word-break: break-all;
+}
+
+.contact-link {
+  color: #4f46e5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #6366f1;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .profile-section-container {
+    padding: 2rem;
+  }
+
+  .profile-header {
+    padding: 2rem;
+  }
+
+  .profile-name {
+    font-size: 2rem;
+  }
+
+  .profile-card {
+    flex-direction: row;
+  }
+
+  .profile-image-wrapper {
+    width: 33.333%;
+    padding: 2rem;
+  }
+
+  .profile-image-container {
+    width: 240px;
+    height: 240px;
+  }
+
+  .profile-content-wrapper {
+    width: 66.666%;
+    padding: 2rem;
+  }
+
+  .profile-name-large {
+    font-size: 2rem;
+  }
+
+  .contact-details {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .contact-detail {
+    flex: 1;
+    min-width: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-section-container {
+    padding: 2.5rem;
+  }
+
+  .profile-image-container {
+    width: 280px;
+    height: 280px;
+  }
+
+  .profile-name-large {
+    font-size: 2.25rem;
+  }
+
+  .profile-role {
+    font-size: 1rem;
+  }
+
+  .fact-item,
+  .contact-detail {
+    font-size: 1rem;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  .back-button,
+  .contact-link {
+    padding: 0.75rem 1rem;
+  }
+
+  .back-button:active {
+    background: #f3f4f6;
+    transform: translateX(-2px);
+  }
+
+  .contact-link:active {
+    color: #6366f1;
+  }
+}
+
+/* Print styles */
+@media print {
+  .profile-section-container {
+    background: white;
+    padding: 0;
+  }
+
+  .back-button {
+    display: none;
+  }
+
+  .profile-card {
+    break-inside: avoid;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .back-button,
+  .profile-photo,
+  .back-arrow {
+    transition: none;
+  }
+
+  .back-button:hover {
+    transform: none;
+  }
+}
