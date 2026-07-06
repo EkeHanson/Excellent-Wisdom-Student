@@ -10,7 +10,7 @@ const unionObjectives = [
   'To promote community service, leadership, and good citizenship among members.',
 ]
 
-function HomeSection() {
+function HomeSection({ classContact }) {
   return (
     <>
       <section className="section intro">
@@ -54,6 +54,34 @@ function HomeSection() {
           Want to contribute to the website or share updates? Share new donors, announcements, or event details with the alumni coordinator.
         </p>
       </section>
+
+      {classContact && (
+        <section className="section contact">
+          <h2>Class Group</h2>
+          <div className="contact-details">
+            <div className="contact-detail">
+              <span className="contact-label">Email:</span>
+              <a 
+                href={`mailto:${classContact.email}`} 
+                className="contact-value contact-link"
+              >
+                {classContact.email}
+              </a>
+            </div>
+            <div className="contact-detail">
+              <span className="contact-label">WhatsApp:</span>
+              <a 
+                href={classContact.whatsapp} 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-value contact-link"
+              >
+                Join Class WhatsApp Group
+              </a>
+            </div>
+          </div>
+        </section>
+      )}
     </>
   )
 }

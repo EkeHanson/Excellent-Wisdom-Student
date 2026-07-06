@@ -11,6 +11,7 @@ import {
   upcomingEvents,
   meetingMinutes,
   names,
+  classContact,
 } from './data'
 import ContributionSection from './components/ContributionSection'
 import HomeSection from './components/HomeSection'
@@ -92,7 +93,7 @@ function App() {
 
       <PageNav currentView={currentView} onNavigate={handleNavigate} />
 
-      {currentView === 'home' && <HomeSection />}
+      {currentView === 'home' && <HomeSection classContact={classContact} />}
 
       {currentView === 'contributions' && (
         <ContributionSection
