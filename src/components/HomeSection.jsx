@@ -1,5 +1,15 @@
 import React from 'react'
 
+const unionObjectives = [
+  'To promote friendship, cooperation, and professional networking among members of the Class of 2013.',
+  'To maintain a lifelong relationship between the alumni and the school through regular communication, meetings, and events.',
+  'To organize reunions, mentorship programs, and social gatherings for members\' interaction and development.',
+  'To support the alma mater in areas such as academic improvement, infrastructure, and student welfare.',
+  'To establish welfare initiatives to assist members in need, such as during emergencies or career challenges.',
+  'To encourage and support the educational and professional advancement of members through training, seminars, or workshops.',
+  'To promote community service, leadership, and good citizenship among members.',
+]
+
 function HomeSection() {
   return (
     <>
@@ -9,6 +19,18 @@ function HomeSection() {
           Excellent Wisdom Students (EWS) is the alumni community for the 2013 class of Government Secondary School Ngo.
           Our slogan is <strong>WISDOM IS POWER</strong>, and we exist to remain united, share ideas, solve problems, and help each member grow.
         </p>
+      </section>
+
+      <section className="section objectives">
+        <h2>Group's Objectives</h2>
+        <div className="objectives-grid">
+          {unionObjectives.map((objective, index) => (
+            <div key={index} className="objective-card">
+              <span className="objective-number">{index + 1}</span>
+              <p className="objective-text">{objective}</p>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section className="section features">
