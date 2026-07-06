@@ -20,7 +20,7 @@ function DocumentsSection({ certificatePdf, statusReportPdf, meetingMinutePdf })
           </li>
           <li>
             <a href={meetingMinutePdf} target="_blank" rel="noreferrer">
-              AWS Meeting Minute
+              EWS Meeting Minute
             </a>
           </li>
         </ul>

@@ -1,3 +1,7 @@
+import { names } from './names.js'
+
+export { names }
+
 export const paymentInfo = {
   account: '7011973141',
   name: 'Harry Awajiobotumu',
@@ -91,6 +95,8 @@ export const pinnedRosterNames = [
   'Iyo Amos Amos',
   'Monday Ngofah',
 ]
+
+
 
 export const classmateProfiles = {
   'Abraham E. Hanson': {

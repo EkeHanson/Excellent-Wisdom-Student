@@ -1,6 +1,5 @@
 import { useMemo, useState } from 'react'
 import './App.css'
-import classmatesText from '../classmates names.txt?raw'
 import {
   paymentInfo,
   contributionEvents,
@@ -11,6 +10,7 @@ import {
   lateMembers,
   upcomingEvents,
   meetingMinutes,
+  names,
 } from './data'
 import ContributionSection from './components/ContributionSection'
 import HomeSection from './components/HomeSection'
@@ -36,23 +36,8 @@ function App() {
   const [rosterSearch, setRosterSearch] = useState('')
 
   const classmates = useMemo(
-    () =>
-      Array.from(
-        new Set(
-          classmatesText
-            .split(/\r?\n/)
-            .map((line) => line.replace(/^\s*\d+\.?\s*/, '').trim())
-            .map((line) => line.replace(/\s{2,}/g, ' '))
-            .filter(
-              (line) =>
-                line &&
-                !line.startsWith('<') &&
-                !/^Names of our Classmates/i.test(line) &&
-                !/^Names of our Classmates\./i.test(line),
-            ),
-        ),
-      ).sort((a, b) => a.localeCompare(b)),
-    [],
+    () => [...new Set(names)].sort((a, b) => a.localeCompare(b)),
+    [names],
   )
 
   const profile = selectedClassmate ? classmateProfiles[selectedClassmate] : null
