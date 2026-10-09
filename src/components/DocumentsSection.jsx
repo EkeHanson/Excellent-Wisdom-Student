@@ -1,13 +1,18 @@
 import React from 'react'
 import ConstitutionSection from './ConstitutionSection'
 
-function DocumentsSection({ certificatePdf, statusReportPdf, meetingMinutePdf }) {
+function DocumentsSection({ registrationCertificate, certificatePdf, statusReportPdf, meetingMinutePdf }) {
   return (
     <>
       <section className="section docs">
         <h2>Important Documents</h2>
-        <p>Open the files below to review the organization's certificate, status report, and meeting minutes.</p>
+        <p>Open the files below to review the organization's registration certificate, alumni association certificate, status report, and meeting minutes.</p>
         <ul>
+          <li>
+            <a href={registrationCertificate} target="_blank" rel="noreferrer">
+              AWS Certificate of Registration
+            </a>
+          </li>
           <li>
             <a href={certificatePdf} target="_blank" rel="noreferrer">
               Certificate - Excellent Wisdom Students NGO 2013 Alumni Association

@@ -22,6 +22,7 @@ import DocumentsSection from './components/DocumentsSection'
 import EventsSection from './components/EventsSection'
 
 const logoUrl = new URL('../logo.jpeg', import.meta.url).href
+const registrationCertificate = new URL('../AWS certificate of registration.jpeg', import.meta.url).href
 const certificatePdf = new URL('../CERTIFICATE - EXCELLENT WISDOM STUDENTS NGO 2013 ALUMNI ASSOCIATION (1).pdf', import.meta.url).href
 const statusReportPdf = new URL('../Status Report CAC - EXCELLENT WISDOM STUDENTS NGO 2013 ALUMNI ASSOCIATION.pdf', import.meta.url).href
 const meetingMinutePdf = new URL('../AWS MEETING MINUTE.pdf', import.meta.url).href
@@ -134,6 +135,7 @@ function App() {
 
       {currentView === 'documents' && (
         <DocumentsSection
+          registrationCertificate={registrationCertificate}
           certificatePdf={certificatePdf}
           statusReportPdf={statusReportPdf}
           meetingMinutePdf={meetingMinutePdf}
