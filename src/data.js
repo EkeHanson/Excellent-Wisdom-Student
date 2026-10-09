@@ -1,14 +1,77 @@
 import { names } from './names.js'
+import atangboDikeImage from './assets/atangbo-dike-support.png'
+import stephenEgbeBurialImage from './assets/stephen-egbe-burial-poster.png'
+import keziahWeddingImage from './assets/keziah-wedding-poster.png'
 
 export { names }
 
 export const paymentInfo = {
-  account: '7011973141',
-  name: 'Harry Awajiobotumu',
+  account: '8144089725',
+  name: 'Finibo Ataisi Otuama',
   method: 'Opay',
 }
 
 export const contributionEvents = [
+  {
+    title: 'Keziah Martins wedding celebration support',
+    order: 6,
+    status: 'active',
+    subtitle:
+      "This is inform the house that our Comrade KEZIAH MARTINS @~Kez Fragrance😍 is Officially inviting us to her wedding celebration coming up on the 21st of November!!! Check for more details on the flyer!! Please let's support and celebrate with her.",
+    paymentInfo: {
+      account: '9035638202',
+      name: 'Kpununkogak-awaji Dorcas Ataisi',
+      method: 'Opay',
+    },
+    image: keziahWeddingImage,
+    donors: [
+      { name: 'HARRY AWAJIOBOTUMU', amount: '5,000' },
+    ],
+  },
+  {
+    title: "STEPHEN EGBE's mother's burial support",
+    order: 5,
+    status: 'active',
+    subtitle:
+      "This is to inform the house that our comrade STEPHEN EGBE @C Gogo Stephen Egbe is inviting the house to his mother's burial coming up on the 31st of this month. Please let's give him our full support just as we always do.",
+    paymentInfo: {
+      account: '7011973141',
+      name: 'Harry Awajiobotumu',
+      method: 'Opay',
+    },
+    image: stephenEgbeBurialImage,
+    donors: [
+      { name: 'ATANFUT DAVID', amount: '2,000' },
+      { name: 'HARRY AWAJIOBOTUMU', amount: '2,000' },
+      { name: 'ABRAHAM EKENE-ONWON', amount: '2,500' },
+      { name: 'MONDAY NGOFAH', amount: '2,000' },
+    ],
+  },
+  {
+    title: 'ATANGBO DIKE support fund',
+    order: 4,
+    status: 'active',
+    subtitle:
+      'It is sad that we lost one of our comrade, ATANGBO DIKE after childbirth! To pay her our last respect, we are appealing for a freewill donation to visit the baby she left behind.',
+    paymentInfo: {
+      account: '8144089725',
+      name: 'Finibo Ataisi Otuama',
+      method: 'Opay',
+    },
+    image: atangboDikeImage,
+    donors: [
+      { name: 'ATANFUT DAVID', amount: '5K' },
+      { name: 'ATA WARIBO', amount: '3.5K' },
+      { name: 'EMMANUEL LOVEDAY', amount: '5K' },
+      { name: 'ABRAHAM EKENE-ONWON', amount: '2.5K' },
+      { name: 'STEPHEN EGBE', amount: '2.5K' },
+      { name: 'AFISIA IGONI', amount: '3K' },
+      { name: 'KEZIAH MARTINS', amount: '3K' },
+      { name: 'HARRY AWAJIOBOTUMU', amount: '3K' },
+      { name: 'MONDAY NGOFAH', amount: '1.3K' },
+      { name: 'HANSON NOAH', amount: '4K' },
+    ],
+  },
   {
     title: 'Keziah Martins support fund',
     order: 3,
@@ -1667,11 +1730,39 @@ export const classmateProfiles = {
 
 export const lateMembers = [
   'Ataisi Derefah',
+  'Atamgbo Dike',
 ]
 
 export const upcomingEvents = [
   {
     id: 1,
+    title: 'Keziah Martins Wedding Celebration',
+    date: '2026-11-21',
+    time: '10:00 AM',
+    location: 'Wedding venue details on the flyer',
+    description: 'Our comrade Keziah Martins is officially inviting us to her wedding celebration. Let us support and celebrate with her as a united house.',
+    isUpcoming: true,
+  },
+  {
+    id: 2,
+    title: 'Stephen Egbe Mother\'s Burial',
+    date: '2026-10-31',
+    time: '08:00 AM',
+    location: 'Okoile Town, Andoni LGA, Rivers State',
+    description: 'Our comrade Stephen Egbe is inviting the house to support his mother\'s burial. Let us stand with him and his family during this difficult time.',
+    isUpcoming: true,
+  },
+  {
+    id: 3,
+    title: 'Virtual Alumni Meeting',
+    date: '2026-11-01',
+    time: '06:00 PM',
+    location: 'WhatsApp platform',
+    description: 'A group meeting on our WhatsApp platform to discuss upcoming plans, welfare updates, and necessary support for members and family events.',
+    isUpcoming: true,
+  },
+  {
+    id: 4,
     title: 'Mid Year General Meeting 2026',
     date: '2026-07-15',
     time: '04:00 PM',
@@ -1680,7 +1771,7 @@ export const upcomingEvents = [
     isUpcoming: true,
   },
   {
-    id: 2,
+    id: 5,
     title: 'End of Year Get-Together',
     date: '2027-01-03',
     time: '2:00 PM',
@@ -1689,7 +1780,7 @@ export const upcomingEvents = [
     isUpcoming: true,
   },
   {
-    id: 3,
+    id: 6,
     title: 'CAC Registration Deadline',
     date: '2024-11-30',
     time: '11:59 PM',
@@ -1698,7 +1789,7 @@ export const upcomingEvents = [
     isUpcoming: true,
   },
   {
-    id: 4,
+    id: 7,
     title: 'Community Outreach Program',
     date: '2025-01-20',
     time: '9:00 AM',
@@ -1707,7 +1798,7 @@ export const upcomingEvents = [
     isUpcoming: true,
   },
   {
-    id: 5,
+    id: 8,
     title: 'Fundraising Dinner',
     date: '2025-02-14',
     time: '6:00 PM',
@@ -1720,6 +1811,23 @@ export const upcomingEvents = [
 export const meetingMinutes = [
   {
     id: 1,
+    title: 'WhatsApp Meeting - November 2026',
+    date: '2026-11-01',
+    summary: 'Members will meet on the WhatsApp platform to discuss welfare support for upcoming family events, fundraising priorities, and communication updates across the house.',
+    attendees: 'All members on the class WhatsApp platform',
+    decisions: [
+      'Review support plans for Stephen Egbe\'s mother\'s burial',
+      'Discuss contributions and participation for Keziah Martins\' wedding celebration',
+      'Confirm welfare communication and support strategy for the month',
+    ],
+    actionItems: [
+      'Coordinators to share support updates on the group',
+      'Members to confirm their contributions and attendance',
+      'Committee to circulate event reminders and welfare needs',
+    ],
+  },
+  {
+    id: 2,
     title: 'Monthly Meeting - October 2024',
     date: '2024-10-20',
     summary: 'Discussed progress on CAC registration, reviewed financial statements, and planned for the annual general meeting. Members agreed to increase contributions for the registration drive.',
@@ -1736,7 +1844,7 @@ export const meetingMinutes = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Emergency Meeting - September 2024',
     date: '2024-09-15',
     summary: 'Emergency meeting to address the delay in CAC registration. Members discussed alternative fundraising strategies and agreed to a special levy.',
