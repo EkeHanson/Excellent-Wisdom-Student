@@ -1,0 +1,459 @@
+/* ─── Design tokens ─────────────────────────────────────────────── */
+:root {
+  --bg: #ffffff;
+  --bg-soft: #f6f8fb;
+  --bg-tint: #eef4ff;
+  --surface: #ffffff;
+  --border: #e3e8ef;
+  --border-strong: #cbd5e1;
+
+  --text: #0f172a;
+  --text-muted: #64748b;
+
+  --primary: #1d4ed8;
+  --primary-dark: #1e3a8a;
+  --primary-soft: #dbeafe;
+
+  --accent: #f59e0b;
+  --accent-soft: #fef3c7;
+  --success: #10b981;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 16px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.12);
+
+  --max-width: 1120px;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ─── Base ──────────────────────────────────────────────────────── */
+.home {
+  font-family: var(--font-sans);
+  color: var(--text);
+  line-height: 1.65;
+  background: var(--bg);
+}
+
+/* ─── Hero ──────────────────────────────────────────────────────── */
+.hero {
+  position: relative;
+  padding: 6rem 1.5rem 5rem;
+  background:
+    radial-gradient(1200px 600px at 10% -20%, rgba(59, 130, 246, 0.25), transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, rgba(245, 158, 11, 0.18), transparent 55%),
+    linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #1e40af 100%);
+  color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fef3c7;
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+  margin-bottom: 1.5rem;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin: 0 0 0.5rem;
+}
+
+.hero-title-accent {
+  background: linear-gradient(90deg, #fbbf24, #f59e0b 40%, #fcd34d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-slogan {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #93c5fd;
+  margin: 0 0 1.5rem;
+}
+
+.hero-copy {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.82);
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+/* ─── Section shell ─────────────────────────────────────────────── */
+.section {
+  padding: 4.5rem 1.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.section--tinted {
+  max-width: none;
+  background:
+    linear-gradient(180deg, var(--bg-tint) 0%, var(--bg-soft) 100%);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.section--tinted > * {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ─── Section header ────────────────────────────────────────────── */
+.section-header {
+  margin-bottom: 2.5rem;
+  max-width: 640px;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--primary);
+  padding: 0.25rem 0.7rem;
+  background: var(--primary-soft);
+  border-radius: 999px;
+  margin-bottom: 0.9rem;
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--text);
+  margin: 0 0 0.4rem;
+  line-height: 1.2;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ─── Intro ─────────────────────────────────────────────────────── */
+.intro-copy {
+  font-size: 1.08rem;
+  max-width: 68ch;
+  color: #334155;
+  margin: 0;
+}
+
+.intro-slogan {
+  color: var(--primary-dark);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  padding: 0 0.15em;
+  background: linear-gradient(180deg, transparent 60%, var(--accent-soft) 60%);
+}
+
+/* ─── Objectives ────────────────────────────────────────────────── */
+.objectives-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.objective-item {
+  display: flex;
+  gap: 1.1rem;
+  padding: 1.25rem 1.35rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.objective-item:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md);
+}
+
+.objective-index {
+  flex-shrink: 0;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(29, 78, 216, 0.35);
+}
+
+.objective-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #334155;
+}
+
+/* ─── Pillars ───────────────────────────────────────────────────── */
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.pillar-card {
+  position: relative;
+  padding: 2rem 1.5rem 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.pillar-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.pillar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: transparent;
+}
+
+.pillar-card:hover::before {
+  opacity: 1;
+}
+
+/* ─── Pillar icon (FontAwesome) ─────────────────────────────────── */
+.pillar-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  color: var(--primary);
+  background: var(--primary-soft);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+}
+
+.pillar-card:hover .pillar-icon {
+  transform: scale(1.08) rotate(-4deg);
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: #ffffff;
+}
+
+.pillar-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 0.5rem;
+}
+
+.pillar-description {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ─── Get Involved ──────────────────────────────────────────────── */
+.section--involved {
+  padding: 4rem 1.5rem;
+}
+
+.involved-inner {
+  position: relative;
+  padding: 3rem 2.5rem;
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(600px 300px at 100% 0%, rgba(245, 158, 11, 0.18), transparent 60%),
+    linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 100%);
+  color: #ffffff;
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.involved-inner .section-title {
+  color: #ffffff;
+}
+
+.involved-inner .section-eyebrow {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fef3c7;
+}
+
+.involved-copy {
+  font-size: 1.02rem;
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 62ch;
+  margin: 0;
+}
+
+/* ─── Contact ───────────────────────────────────────────────────── */
+.contact-list {
+  display: grid;
+  gap: 0.9rem;
+  max-width: 560px;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1.3rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-row:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md);
+}
+
+.contact-label {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 96px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--primary);
+  padding: 0.4rem 0.75rem;
+  background: var(--primary-soft);
+  border-radius: 999px;
+  justify-content: center;
+}
+
+.contact-value {
+  flex: 1;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  word-break: break-word;
+}
+
+.contact-arrow {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.95rem;
+  color: var(--primary);
+  opacity: 0.6;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.contact-row:hover .contact-arrow {
+  transform: translateX(4px);
+  opacity: 1;
+}
+
+/* ─── Responsive ────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .hero {
+    padding: 4rem 1.25rem 3.5rem;
+  }
+
+  .section {
+    padding: 3rem 1.25rem;
+  }
+
+  .section--involved {
+    padding: 3rem 1.25rem;
+  }
+
+  .involved-inner {
+    padding: 2rem 1.5rem;
+  }
+
+  .objective-item {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .contact-row {
+    flex-wrap: wrap;
+  }
+
+  .contact-value {
+    flex-basis: 100%;
+  }
+
+  .contact-label {
+    min-width: 0;
+  }
+}
+
+/* ─── Accessibility ─────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}

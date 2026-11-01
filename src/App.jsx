@@ -13,6 +13,7 @@ import {
   names,
   classContact,
 } from './data'
+import SiteHeader from './components/SiteHeader'
 import ContributionSection from './components/ContributionSection'
 import HomeSection from './components/HomeSection'
 import PageNav from './components/PageNav'
@@ -81,16 +82,7 @@ function App() {
 
   return (
     <div className="app-shell">
-      <header className="hero">
-        <img className="hero-logo" src={logoUrl} alt="Excellent Wisdom Students logo" />
-        <div>
-          <h1>Excellent Wisdom Students</h1>
-          <p>Secondary school classmates united as an alumni association.</p>
-          <p className="hero-note">
-            Use the tabs below to explore contributors, members list, and documents.
-          </p>
-        </div>
-      </header>
+      <SiteHeader logoSrc={logoUrl} />
 
       <PageNav currentView={currentView} onNavigate={handleNavigate} />
 

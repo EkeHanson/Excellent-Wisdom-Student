@@ -1,0 +1,113 @@
+/* ─── Site hero / header ────────────────────────────────────────── */
+.site-hero {
+  position: relative;
+  padding: 5rem 1.5rem 4.5rem;
+  background:
+    radial-gradient(1200px 600px at 10% -20%, rgba(59, 130, 246, 0.25), transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, rgba(245, 158, 11, 0.18), transparent 55%),
+    linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #1e40af 100%);
+  color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.site-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.site-hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ─── Logo ──────────────────────────────────────────────────────── */
+.site-hero-logo {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(6px);
+}
+
+/* ─── Badge ─────────────────────────────────────────────────────── */
+.site-hero-badge {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fef3c7;
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+  margin-bottom: 1.5rem;
+}
+
+/* ─── Title ─────────────────────────────────────────────────────── */
+.site-hero-title {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin: 0 0 0.5rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.site-hero-title-accent {
+  background: linear-gradient(90deg, #fbbf24, #f59e0b 40%, #fcd34d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ─── Slogan ────────────────────────────────────────────────────── */
+.site-hero-slogan {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #93c5fd;
+  margin: 0 0 1.5rem;
+}
+
+/* ─── Copy ──────────────────────────────────────────────────────── */
+.site-hero-copy {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.82);
+  max-width: 60ch;
+  margin: 0 auto;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.65;
+}
+
+/* ─── Responsive ────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .site-hero {
+    padding: 3.5rem 1.25rem 3rem;
+  }
+
+  .site-hero-logo {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 1.25rem;
+  }
+}

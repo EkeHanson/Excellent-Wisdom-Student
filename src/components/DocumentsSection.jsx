@@ -25,7 +25,7 @@ function DocumentsSection({ registrationCertificate, certificatePdf, statusRepor
           </li>
           <li>
             <a href={meetingMinutePdf} target="_blank" rel="noreferrer">
-              EWS Meeting Minute
+              EWS Meeting Minute for Monday 29th March 2026
             </a>
           </li>
         </ul>

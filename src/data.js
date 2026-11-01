@@ -26,6 +26,7 @@ export const contributionEvents = [
     image: keziahWeddingImage,
     donors: [
       { name: 'HARRY AWAJIOBOTUMU', amount: '5,000' },
+      { name: 'Inwon  Agana', amount: '3,000' },
     ],
   },
   {
@@ -33,7 +34,7 @@ export const contributionEvents = [
     order: 5,
     status: 'active',
     subtitle:
-      "This is to inform the house that our comrade STEPHEN EGBE @C Gogo Stephen Egbe is inviting the house to his mother's burial coming up on the 31st of this month. Please let's give him our full support just as we always do.",
+      "Greetings @all. Our comrade STEPHEN EGBE @C Gogo Stephen Egbe is inviting the house to his mother's burial coming up on the 31st of this month. @Okoloile, please let's give him our full support just as we always do.",
     paymentInfo: {
       account: '7011973141',
       name: 'Harry Awajiobotumu',
@@ -45,6 +46,13 @@ export const contributionEvents = [
       { name: 'HARRY AWAJIOBOTUMU', amount: '2,000' },
       { name: 'ABRAHAM EKENE-ONWON', amount: '2,500' },
       { name: 'MONDAY NGOFAH', amount: '2,000' },
+      { name: 'INWON AGANA', amount: '2,000' },
+      { name: 'MICAH FYNECOUNTRY', amount: '2,000' },
+      { name: 'KEZIAH MARTINS', amount: '2,000' },
+      { name: 'DORCAS ATAISI', amount: '3,000' },
+      { name: 'IYO AMOS', amount: '2,000' },
+      { name: 'OGWUOMA PEACE', amount: '1,000' },
+      { name: 'MKPARO IRIBE', amount: '3,000' },
     ],
   },
   {
@@ -52,7 +60,7 @@ export const contributionEvents = [
     order: 4,
     status: 'active',
     subtitle:
-      'It is sad that we lost one of our comrade, ATANGBO DIKE after childbirth! To pay her our last respect, we are appealing for a freewill donation to visit the baby she left behind.',
+      "Greetings @all. It's sad that we lost one of our comrade, ATANGBO DIKE, after childbirth! To pay her our last respect, we're appealing for a freewill donation to visit the baby she left behind.",
     paymentInfo: {
       account: '8144089725',
       name: 'Finibo Ataisi Otuama',
@@ -70,6 +78,12 @@ export const contributionEvents = [
       { name: 'HARRY AWAJIOBOTUMU', amount: '3K' },
       { name: 'MONDAY NGOFAH', amount: '1.3K' },
       { name: 'HANSON NOAH', amount: '4K' },
+      { name: 'IRIBE MKPARO', amount: '5K' },
+      { name: 'AMABI ATAIJONG', amount: '3K' },
+      { name: 'INWON AGANA', amount: '3K' },
+      { name: 'DORCAS ATAISI', amount: '3K' },
+      { name: 'OGWUOMA PEACE', amount: '1K' },
+      { name: 'FINIBO ATAISI', amount: '2.2K' },
     ],
   },
   {
@@ -1756,7 +1770,7 @@ export const upcomingEvents = [
     id: 3,
     title: 'Virtual Alumni Meeting',
     date: '2026-11-01',
-    time: '06:00 PM',
+    time: '08:00 PM',
     location: 'WhatsApp platform',
     description: 'A group meeting on our WhatsApp platform to discuss upcoming plans, welfare updates, and necessary support for members and family events.',
     isUpcoming: true,
