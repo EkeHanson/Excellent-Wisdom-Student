@@ -53,6 +53,8 @@ export const contributionEvents = [
       { name: 'IYO AMOS', amount: '2,000' },
       { name: 'OGWUOMA PEACE', amount: '1,000' },
       { name: 'MKPARO IRIBE', amount: '3,000' },
+      { name: 'Festa Awaji-onyi', amount: '1,000' },
+      { name: 'Okauwu Loveday', amount: '2,000' },
     ],
   },
   {
