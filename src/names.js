@@ -122,5 +122,8 @@ export const names = [
   'Uriah Miracle Magnus',
   'Victor Kpanmgbore',
   'Wilson Ataeje',
-  'Zebulon Zebulon'
+  'Zebulon Zebulon',
+  'Iyo Amos',
+  'Odoh Ebirien Mitop',
+  'Ebirien Ikwaan-Awaji',
 ]
